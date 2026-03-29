@@ -1,0 +1,60 @@
+:root {
+  /* Primary */
+  --rbcc-primary: #16C47F;
+  --rbcc-secondary: #FFD65A;
+  --rbcc-accent: #FF9D23;
+  --rbcc-highlight: #F93827;
+
+  /* Neutrals */
+  --rbcc-text: #2A2A2A;
+  --rbcc-text-secondary: #5A5A5A;
+  --rbcc-border: #F1D78A;
+  --rbcc-surface: #FFFDF7;
+  --rbcc-surface-alt: #FFF6D9;
+
+  /* Theme surfaces */
+  --rbcc-hero-start: #16C47F;
+  --rbcc-hero-end: #F93827;
+  --rbcc-footer-start: #16C47F;
+  --rbcc-footer-end: #F93827;
+
+  /* Button: Primary */
+  --rbcc-btn-primary-bg: #FFD65A;
+  --rbcc-btn-primary-text: #2A2A2A;
+  --rbcc-btn-primary-hover: #FF9D23;
+  --rbcc-btn-primary-active: #F93827;
+
+  /* Button: Secondary */
+  --rbcc-btn-secondary-bg: #FFD65A;
+  --rbcc-btn-secondary-text: #2A2A2A;
+  --rbcc-btn-secondary-hover: #FF9D23;
+  --rbcc-btn-secondary-active: #F93827;
+
+  /* Button: Outline */
+  --rbcc-btn-outline-border: #16C47F;
+  --rbcc-btn-outline-text: #16C47F;
+  --rbcc-btn-outline-hover-bg: #16C47F;
+  --rbcc-btn-outline-hover-text: #FFFFFF;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+
+  /* Typography */
+  --font-heading: 'Montserrat', Arial, sans-serif;
+  --font-body: 'Lato', Arial, sans-serif;
+
+  /* Layout */
+  --max-width: 1200px;
+  --border-radius: 8px;
+  --border-radius-sm: 4px;
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-card-hover: 0 4px 16px rgba(0, 0, 0, 0.12);
+}

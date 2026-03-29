@@ -1,0 +1,100 @@
+@media print {
+  *,
+  *::before,
+  *::after {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  .hero {
+    background: #16C47F !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    padding: 32px 24px;
+  }
+
+  .contact {
+    background: #16C47F !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    padding: 32px 24px;
+  }
+
+  .section {
+    padding: 24px 16px;
+  }
+
+  /* Hide CTA buttons */
+  .btn {
+    display: none !important;
+  }
+
+  /* Single column tiers */
+  .tiers-grid {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    gap: 16px;
+  }
+
+  .tier-card {
+    page-break-inside: avoid;
+    border: 1px solid #ccc;
+  }
+
+  /* Single column stats */
+  .snapshot-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .stat-card {
+    border: 1px solid #ccc;
+  }
+
+  /* Single column why */
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  /* Pro exec features inline */
+  .pro-exec-features {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  /* Timeline compact */
+  .tl-item {
+    padding-bottom: 8px;
+  }
+
+  /* Page breaks */
+  .tiers {
+    page-break-before: always;
+  }
+
+  .contact {
+    page-break-before: always;
+  }
+
+  /* Links show URL */
+  a[href^="mailto:"]::after {
+    content: none;
+  }
+
+  /* Footer URL */
+  .contact::after {
+    content: "royalbengalcc.ca";
+    display: block;
+    margin-top: 16px;
+    font-size: 9pt;
+    opacity: 0.7;
+  }
+}
