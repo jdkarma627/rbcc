@@ -1,0 +1,11 @@
+# Only the sponsor-site is tracked in this repository.
+# Everything else is private club documentation for local use only.
+
+# Ignore everything
+/*
+
+# But allow the sponsor-site
+!/Marketing_Plans/
+!Marketing_Plans/Sponsor_Materials/
+!Marketing_Plans/Sponsor_Materials/sponsor-site/
+!Marketing_Plans/Sponsor_Materials/sponsor-site/**
